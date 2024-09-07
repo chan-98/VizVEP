@@ -1,5 +1,6 @@
 # **VizVEP**
 **Visualize Ensembl-VEP annotations with Excel**
+
 *This Nextflow pipeline VEP annotated VCF file to EXCEL viewable CSV format files. If multiple types of VCF files are available of the same sample, it can also merge them and provide a single CSV output.*
 
 ## **REQUIREMENTS**

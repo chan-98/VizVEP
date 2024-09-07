@@ -12,8 +12,8 @@
 
 	### *To convert single VCF file to CSV*
 	
-`nextflow run main.nf -profile [docker | singularity] --sample ./data/NA12878.haplotypecaller.filtered_VEP.ann.vcf.gz --outDir ./results --sampleID NA12878`
+`nextflow run main.nf -profile [docker | singularity] --sample ./test/data/NA12878.haplotypecaller.filtered_VEP.ann.vcf.gz --outDir ./results --sampleID NA12878`
 
-	### *To merge 2 VCF files and convert to CSV*
+	### *To merge 2 VCF files (in directory) and convert to CSV*
 	
-`nextflow run main.nf -profile [docker | singularity] --sample ./data/merge_samples --outDir ./results --sampleID HCC1395T_vs_HCC1395N`
+`nextflow run main.nf -profile [docker | singularity] --sample ./test/data/merge_samples --outDir ./test/results --sampleID HCC1395T_vs_HCC1395N`
